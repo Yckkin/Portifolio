@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifolio do Nicolas</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="fotodeperfil.jpeg" alt="Foto de perfil do Nicolas" class="rounded-cicle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Nicolas</p>
+        <h1>Eu aprendo Programação</h1>
+        <p>Eu sou aluno do Ensino Médio que aprende programação com o alura, usando javascrispt, html e outras linguagens de programação!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="mona.jpg" class="card-img-top" alt="Imagem do projeto do Efeito Monalisa">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto do efeito Mona Lisa</h5>
+                        <p class="card-text">Este projeto foi o primeiro projeto feito com os ensinamentos do alura, aonde foi mostrado o poder do codigo do javascrispt e o que ele pode fazer </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projetofogofrio.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Quente e Frio</h5>
+                        <p class="card-text">Outro projeto que foi feito junto com o alura, aonde teve uma dinamica divertida de achar o ponto "quente"</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="corridamaluca.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida Maluca</h5>
+                        <p class="card-text">Assim como os outros, este projeto foi feito com Javascript também, aonde eu fiz um tipo de corrida que você interage clicando em duas teclas.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto do efeito Mona lisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto do efeito Monalisa, foi feito com javascript no p5.js, sendo o meu primeiro projeto feito com os ensinamentos do alura</p>
+                    <p>E funciona assim: tem um rosto no meio da tela, e conforme você mexe o mouse os olhos seguem a direção do mouse.
+                    </p>
+                    <img src="monaproj.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001104048012sp/full/ygeGKgTo66">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/00001104048012sp/sketches/ygeGKgTo66">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quente e Frio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O quente e frio, foi o segundo projeto feito com os ensinamentos do alura, sendo uma brincadeira mais interativa. </p>
+                    <p>Aonde você tenta encontrar o ponto quente, como uma brincandeira de quente e frio.</p>
+
+                    <img src="quentefrio.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001104048012sp/full/rKmky3fNq">Ver projeto ao
+                        vivo</a>
+                    <a href="https://editor.p5js.org/00001104048012sp/sketches/rKmky3fNq">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida Maluc</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A corrida maluca foi o terceiro e o mais atual projeto feito com os ensinamentos do alura. </p>
+                    <p>Aonde de forma interativa você e seu amigo pode disputar uma corrida com as teclas do computador.</p>
+
+                    <img src="corridamalucaproj.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001104048012sp/full/F4lDd4jeG">Ver projeto ao
+                        vivo</a>
+                    <a href="https://editor.p5js.org/00001104048012sp/sketches/F4lDd4jeG">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Yckkin">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Nicolas Muniz</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
